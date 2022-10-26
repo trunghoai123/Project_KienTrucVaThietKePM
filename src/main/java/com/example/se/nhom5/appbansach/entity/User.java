@@ -10,6 +10,7 @@ import org.springframework.boot.context.properties.ConstructorBinding;
 import lombok.ToString;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;
 
@@ -18,6 +19,7 @@ import lombok.Getter;
 @Table(name = "users")
 @ConstructorBinding
 @NoArgsConstructor
+@AllArgsConstructor
 @ToString
 @Getter
 @Setter

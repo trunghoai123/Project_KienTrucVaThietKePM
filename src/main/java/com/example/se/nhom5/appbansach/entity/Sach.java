@@ -16,6 +16,7 @@ import org.springframework.boot.context.properties.ConstructorBinding;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -25,12 +26,13 @@ import lombok.ToString;
 
 @Data
 @Entity
-@Table(name = "sach")
+@Table(name = "sachs")
 @ConstructorBinding
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
 @Getter
 @Setter
-@NoArgsConstructor
-@ToString
 public class Sach {
     
     @Id

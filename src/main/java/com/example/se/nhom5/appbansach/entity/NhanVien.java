@@ -22,7 +22,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @Getter
 @Setter
-@ToString
+@ToString 
 public class NhanVien {
     @Id
     @Column(name = "maNV")
