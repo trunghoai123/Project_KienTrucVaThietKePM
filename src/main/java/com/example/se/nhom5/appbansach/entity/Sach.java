@@ -26,7 +26,7 @@ import lombok.ToString;
 
 @Data
 @Entity
-@Table(name = "sachs")
+@Table(name = "sach")
 @ConstructorBinding
 @NoArgsConstructor
 @AllArgsConstructor
